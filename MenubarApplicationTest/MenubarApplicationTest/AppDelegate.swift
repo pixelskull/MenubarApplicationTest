@@ -17,7 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        let icon:NSImage = NSImage(named:"statusIcon")!
+        let icon:NSImage = NSImage(named:"statusbar")!
         icon.setTemplate(true)
 
         statusItem.image = icon
